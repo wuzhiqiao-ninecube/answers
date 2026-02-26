@@ -1,0 +1,57 @@
+Sensitivity: YES (SIMULTANEOUS + FULL ERROR CONTROL + user-provided sensitivity RHS)
+Parameters: [4.0000e-02  1.0000e+04  3.0000e+07]
+Run statistics:
+   nst     =  1644
+   nfe     =  2349
+   netf    =    77    nsetups  =   263
+   nni     =  2346    ncfn     =    19
+   njeD    =    46    nfeD     =     0
+   -----------------------------------
+   nfSe    =  7047    nfeS     =     0
+   netfs   =     0    nsetupsS =     0
+   nniS    =     0    ncfnS    =     0
+
+Sensitivity: NO
+Parameters: [5.0000e-02  2.0000e+04  2.9000e+07]
+Run statistics:
+   nst     =  1065
+   nfe     =  1534
+   netf    =    78    nsetups  =   203
+   nni     =  1531    ncfn     =     1
+   njeD    =    20    nfeD     =     0
+
+Sensitivity: YES (SIMULTANEOUS + FULL ERROR CONTROL + DQ sensitivity RHS)
+Parameters: [6.0000e-02  3.0000e+04  2.8000e+07]
+Run statistics:
+   nst     =  1717
+   nfe     =  2645
+   netf    =   119    nsetups  =   296
+   nni     =  2642    ncfn     =     2
+   njeD    =    32    nfeD     =     0
+   -----------------------------------
+   nfSe    =  7935    nfeS     = 15870
+   netfs   =     0    nsetupsS =     0
+   nniS    =     0    ncfnS    =     0
+
+Sensitivity: YES (STAGGERED + PARTIAL ERROR CONTROL + user-provided sensitivity RHS)
+Parameters: [6.0000e-02  3.0000e+04  2.8000e+07]
+Run statistics:
+   nst     =  1026
+   nfe     =  2440
+   netf    =    51    nsetups  =   171
+   nni     =  1411    ncfn     =     0
+   njeD    =    21    nfeD     =     0
+   -----------------------------------
+   nfSe    =  4899    nfeS     =     0
+   netfs   =     0    nsetupsS =     6
+   nniS    =  1632    ncfnS    =     6
+
+Sensitivity: NO
+Parameters: [6.0000e-02  3.0000e+04  2.8000e+07]
+Run statistics:
+   nst     =  1041
+   nfe     =  1481
+   netf    =    68    nsetups  =   189
+   nni     =  1478    ncfn     =     1
+   njeD    =    20    nfeD     =     0
+

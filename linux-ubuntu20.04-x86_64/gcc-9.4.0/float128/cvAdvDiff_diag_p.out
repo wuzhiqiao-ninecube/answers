@@ -1,0 +1,23 @@
+
+ 1-D advection-diffusion equation, mesh size = 10 
+
+ Number of PEs =   4 
+
+ Diagonal linear solver CVDiag 
+
+At t = 0.00  max.norm(u) =  1.569909e+01  nst =   0 
+At t = 0.50  max.norm(u) =  1.223035e+01  nst = 179 
+At t = 1.00  max.norm(u) =  3.719455e+06  nst = 486 
+[ERROR][rank 0][/mnt/d/workon/sundials/src/cvode/cvode.c:1487][CVode] At t = 1.17629087424119291568307265040357, mxstep steps taken before reaching tout.
+[ERROR][rank 0][/mnt/d/workon/sundials/src/cvode/cvode.c:1487][CVode] SUNMPIAbortErrHandler: Calling MPI_Abort now, use a different error handler to avoid program termination.
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode -1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[DESKTOP-K4RAB39:44212] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[DESKTOP-K4RAB39:44212] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

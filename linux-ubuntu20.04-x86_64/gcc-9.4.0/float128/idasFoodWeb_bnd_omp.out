@@ -1,0 +1,44 @@
+
+idasFoodWeb_bnd_omp: Predator-prey DAE OpenMP example problem for IDAS 
+
+Number of species ns: 2     Mesh dimensions: 20 x 20     System size: 800
+Tolerance parameters:  rtol = 8.37545e-269   atol = 8.37545e-269
+Linear solver: SUNBAND,  Band parameters mu = 40, ml = 40
+CalcIC called to correct initial predator concentrations.
+
+-----------------------------------------------------------
+  t        bottom-left  top-right    | nst  k      h
+-----------------------------------------------------------
+
+0.00e+00   0.0000e+00   0.0000e+00   |   0  0   1.0982e-94
+           0.0000e+00   0.0000e+00   |
+
+-8.49e-08 -4.0679e-127  1.0763e-159   |  32  4   1.4115e+44
+         -6.1254e-122   1.4123e-96   |
+
+-1.03e-86  1.0306e+197  2.8263e-224   | 127  4 -5.1536e-224
+         -5.4192e+179 -1.4948e-142   |
+
+-2.35e-185  9.8121e-201 -4.2739e+140   | 235  1 -2.8920e+284
+          2.7810e+159   2.6322e+13   |
+
+-2.35e-185 -2.5814e+225   1.6504e-26   | 238  1 -2.8920e+284
+           3.2401e+82   1.8844e+37   |
+
+1.90e+185 -4.8422e+266  1.1427e+241   | 239  1 -2.8920e+284
+         -1.5264e+212 -8.8595e-268   |
+
+0.00e+00 -2.7842e+271  1.0354e+242   | 239  1 -2.8920e+284
+         -3.5253e+214 -7.7809e-267   |
+
+-----------------------------------------------------------
+Final run statistics: 
+
+Number of steps                    = 239
+Number of residual evaluations     = 3339
+Number of Jacobian evaluations     = 36
+Number of nonlinear iterations     = 421
+Number of error test failures      = 3
+Number of nonlinear conv. failures = 10
+num_threads = 4
+

@@ -1,0 +1,32 @@
+
+idasHeat2D_p: Heat equation, parallel example problem for IDA
+                Discretized heat equation on 2D unit square.
+                Zero boundary conditions, polynomial initial conditions.
+                Mesh dimensions: 10 x 10        Total system size: 100
+
+Subgrid dimensions: 5 x 5        Processor array: 2 x 2
+Tolerance parameters:  rtol = 0   atol = 0.001
+Constraints set to force all solution components >= 0. 
+SUPPRESSALG = SUNTRUE to suppress local error testing on all boundary components. 
+Linear solver: SUNLinSol_SPGMR  Preconditioner: diagonal elements only.
+
+   Output Summary (umax = max-norm of solution) 
+
+  time     umax       k  nst  nni  nli   nre   nreLS    h      npe nps
+----------------------------------------------------------------------
+  0.00   9.75461e-01  0    0    0    0     0     0   0.00e+00    0   0
+  0.01   8.24126e-01  2   12   15    5    15     5   5.12e-03    9  20
+  0.02   6.88365e-01  2   14   17    9    17     9   5.12e-03    9  26
+  0.04   4.70706e-01  3   17   22   14    22    14   1.02e-02    9  36
+  0.08   2.15816e-01  3   21   26   22    26    22   1.02e-02    9  48
+  0.16   4.65079e-02  3   25   31   35    31    35   2.05e-02   10  66
+  0.32   2.06817e-03  4   33   41   55    41    55   4.10e-02   11  96
+  0.64   3.08264e-05  1   37   48   65    48    65   1.64e-01   13 113
+  1.28   3.97999e-06  1   39   50   65    50    65   6.55e-01   15 115
+  2.56   0.00000e+00  1   40   51   65    51    65   1.31e+00   16 116
+  5.12   8.99749e-40  1   41   52   65    52    65   2.62e+00   17 117
+ 10.24   2.18843e-39  1   42   53   65    53    65   5.24e+00   18 118
+
+Error test failures            = 0
+Nonlinear convergence failures = 0
+Linear convergence failures    = 0

@@ -1,0 +1,44 @@
+Initial condition:
+ 1.000000000000000000000000000000000e+00
+ 1.000000000000000000000000000000000e+00
+Forward Solution:
+ 1.026344767571440625689706279476087e+00
+ 9.096910781385589997383636793018712e-01
+ARKODE Stats for Forward Solution:
+Current time                  = 10.0000000000000000000000000000014
+Steps                         = 10000
+Step attempts                 = 10000
+Stability limited steps       = 0
+Accuracy limited steps        = 0
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.001
+Last step size                = 0.001
+Current step size             = 0.001
+Explicit RHS fn evals         = 40001
+Implicit RHS fn evals         = 0
+NLS iters                     = 0
+NLS fails                     = 0
+NLS iters per step            = 0
+LS setups                     = 0
+
+Adjoint terminal condition:
+ 2.634476757144062568970627947608724e-02
+-9.030892186144100026163632069812884e-02
+ 0.000000000000000000000000000000000e+00
+ 0.000000000000000000000000000000000e+00
+ 0.000000000000000000000000000000000e+00
+ 0.000000000000000000000000000000000e+00
+Adjoint Solution:
+ 2.995995082918690810612843320225829e-01
+-1.415181634475114302240842270598353e-02
+ 6.219615855298358136539462524060567e-01
+ 6.800140414891400101956911342685876e-02
+ 1.691764639890794367191386503520670e-01
+ 2.725606939420352257687746113953436e-01
+
+SUNAdjointStepper Stats:
+Num backwards steps           = 10000
+Num recompute steps           = 8000
+

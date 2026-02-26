@@ -1,0 +1,114 @@
+
+Slow error estimation test (stiff Brusselator ODE problem):
+    time domain:  (0,10]
+    partition size = 20
+    initial conditions:  u0 = 1.2,  v0 = 3.1,  w0 = 3
+    problem parameters:  a = 1,  b = 3.5,  ep = 0.0004
+    MRI method: ARKODE_MRI_GARK_ERK33a (explicit)
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 0.025  dsm 3.18615e+13  dsm_est 2.87651e+09
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 0.525  dsm 24063.5  dsm_est 5735.24
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 1.025  dsm 12293.3  dsm_est 2904.68
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 1.525  dsm 17346.4  dsm_est 4438.3
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 2.025  dsm 17499.8  dsm_est 4529.55
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 2.525  dsm 19171.3  dsm_est 4537.92
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 3.025  dsm 15481.4  dsm_est 4220.5
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 3.525  dsm 22525.4  dsm_est 5437.04
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 4.025  dsm 18486.4  dsm_est 4348.67
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 4.525  dsm 18470.3  dsm_est 4306.43
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 5.025  dsm 17495.5  dsm_est 4094.91
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 5.525  dsm 19174.7  dsm_est 4922.64
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 6.025  dsm 17578.1  dsm_est 14877
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 6.525  dsm 63560.4  dsm_est 330431
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 7.025  dsm 742747  dsm_est 1.51635e+06
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 7.525  dsm 16159.2  dsm_est 20194
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 8.025  dsm 8594.55  dsm_est 6800.33
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 8.525  dsm 18626.5  dsm_est 4899.38
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 9.025  dsm 15039.1  dsm_est 11455.9
+  H 0.025  method ARKODE_MRI_GARK_ERK33a  t 9.525  dsm 23004.8  dsm_est 11940.4
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 0.00625  dsm 4.33933e+11  dsm_est 1.53179e+09
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 0.50625  dsm 327.943  dsm_est 89.6532
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 1.00625  dsm 168.35  dsm_est 45.4476
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 1.50625  dsm 237.257  dsm_est 69.3607
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 2.00625  dsm 239.395  dsm_est 70.8958
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 2.50625  dsm 261.831  dsm_est 70.8568
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 3.00625  dsm 211.412  dsm_est 65.7793
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 3.50625  dsm 307.096  dsm_est 84.9561
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 4.00625  dsm 252.207  dsm_est 67.9604
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 4.50625  dsm 252.035  dsm_est 67.3008
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 5.00625  dsm 238.883  dsm_est 63.9943
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 5.50625  dsm 261.863  dsm_est 76.7889
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 6.00625  dsm 240.859  dsm_est 230.574
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 6.50625  dsm 342.193  dsm_est 5223.24
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 7.00625  dsm 3258.02  dsm_est 24291.4
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 7.50625  dsm 213.219  dsm_est 309.259
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 8.00625  dsm 119.85  dsm_est 106.54
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 8.50625  dsm 256.616  dsm_est 77.4809
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 9.00625  dsm 206.216  dsm_est 173.397
+  H 0.00625  method ARKODE_MRI_GARK_ERK33a  t 9.50625  dsm 313.573  dsm_est 184.892
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 0.0015625  dsm 4.30937e+09  dsm_est 1.04109e+09
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 0.501563  dsm 4.03804  dsm_est 1.40099
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 1.00156  dsm 2.29056  dsm_est 0.710363
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 1.50156  dsm 3.23348  dsm_est 1.08382
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 2.00156  dsm 3.26169  dsm_est 1.10822
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 2.50156  dsm 3.56725  dsm_est 1.10697
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 3.00156  dsm 2.8779  dsm_est 1.02715
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 3.50156  dsm 4.18672  dsm_est 1.32744
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 4.00156  dsm 3.43631  dsm_est 1.06193
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 4.50156  dsm 3.43386  dsm_est 1.05163
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 5.00156  dsm 3.25364  dsm_est 0.999956
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 5.50156  dsm 3.56852  dsm_est 1.19933
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 6.00156  dsm 3.28376  dsm_est 3.5952
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 6.50156  dsm 3.67272  dsm_est 81.81
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 7.00156  dsm 13.8952  dsm_est 381.527
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 7.50156  dsm 2.90196  dsm_est 4.80504
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 8.00156  dsm 1.63182  dsm_est 1.66567
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 8.50156  dsm 3.50618  dsm_est 1.21423
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 9.00156  dsm 2.80928  dsm_est 2.6878
+  H 0.0015625  method ARKODE_MRI_GARK_ERK33a  t 9.50156  dsm 4.27514  dsm_est 2.88228
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 0.000390625  dsm 2.73843e+07  dsm_est 2.97866e+07
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 0.500391  dsm 0.0196339  dsm_est 0.021891
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 1.00039  dsm 0.0100803  dsm_est 0.0111004
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 1.50039  dsm 0.0142306  dsm_est 0.0169349
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 2.00039  dsm 0.0143555  dsm_est 0.0173177
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 2.50039  dsm 0.0157  dsm_est 0.0172957
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 3.00039  dsm 0.012666  dsm_est 0.0160466
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 3.50039  dsm 0.0184263  dsm_est 0.0207413
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 4.00039  dsm 0.0151237  dsm_est 0.0165928
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 4.50039  dsm 0.015113  dsm_est 0.0164318
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 5.00039  dsm 0.0143198  dsm_est 0.0156245
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 5.50039  dsm 0.0157059  dsm_est 0.0187377
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 6.00039  dsm 0.0144547  dsm_est 0.0561455
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 6.50039  dsm 0.0161374  dsm_est 1.27901
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 7.00039  dsm 0.0555134  dsm_est 5.96864
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 7.50039  dsm 0.0127707  dsm_est 0.0749702
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 8.00039  dsm 0.00718516  dsm_est 0.0260299
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 8.50039  dsm 0.0154357  dsm_est 0.0189864
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 9.00039  dsm 0.0123659  dsm_est 0.0419132
+  H 0.000390625  method ARKODE_MRI_GARK_ERK33a  t 9.50039  dsm 0.0188157  dsm_est 0.0450095
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 9.76563e-05  dsm 130431  dsm_est 498019
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 0.500098  dsm 8.75634e-05  dsm_est 0.00034205
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 1.0001  dsm 4.48215e-05  dsm_est 0.000173447
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 1.5001  dsm 6.32759e-05  dsm_est 0.000264608
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 2.0001  dsm 6.38304e-05  dsm_est 0.000270596
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 2.5001  dsm 6.98071e-05  dsm_est 0.000270243
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 3.0001  dsm 5.6316e-05  dsm_est 0.000250719
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 3.5001  dsm 8.19277e-05  dsm_est 0.000324083
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 4.0001  dsm 6.72435e-05  dsm_est 0.000259263
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 4.5001  dsm 6.7196e-05  dsm_est 0.000256748
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 5.0001  dsm 6.36697e-05  dsm_est 0.000244133
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 5.5001  dsm 6.98332e-05  dsm_est 0.000292769
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 6.0001  dsm 6.42734e-05  dsm_est 0.000877157
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 6.5001  dsm 7.14793e-05  dsm_est 0.0199874
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 7.0001  dsm 0.000221967  dsm_est 0.0932879
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 7.5001  dsm 5.67926e-05  dsm_est 0.00117098
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 8.0001  dsm 3.1956e-05  dsm_est 0.000406732
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 8.5001  dsm 6.8641e-05  dsm_est 0.000296717
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 9.0001  dsm 5.49848e-05  dsm_est 0.000654568
+  H 9.76563e-05  method ARKODE_MRI_GARK_ERK33a  t 9.5001  dsm 8.3659e-05  dsm_est 0.000703172
+
+ARKODE_MRI_GARK_ERK33a summary:
+  Stepsize 0.025  	maxdsm 3.18615e+13  	maxdsmest 2.87651e+09
+  Stepsize 0.00625  	maxdsm 4.33933e+11  	maxdsmest 1.53179e+09
+  Stepsize 0.0015625  	maxdsm 4.30937e+09  	maxdsmest 1.04109e+09
+  Stepsize 0.000390625  	maxdsm 2.73843e+07  	maxdsmest 2.97866e+07
+  Stepsize 9.76563e-05  	maxdsm 130431  	maxdsmest 498019

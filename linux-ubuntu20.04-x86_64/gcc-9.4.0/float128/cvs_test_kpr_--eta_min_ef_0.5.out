@@ -1,0 +1,43 @@
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+                 0e+00                    1e+00                    2e+00                    0e+00                    0e+00
+                 1e+00                    1e+00                    2e+00                    6e-06                    2e-05
+                 2e+00                    9e-01                    1e+00                    5e-06                    2e-05
+                 3e+00                    7e-01                    1e+00                    4e-06                    2e-05
+                 4e+00                    8e-01                    1e+00                    9e-07                    3e-06
+                 5e+00                    1e+00                    2e+00                    6e-07                    1e-05
+                 6e+00                    1e+00                    2e+00                    2e-06                    2e-06
+                 7e+00                    1e+00                    1e+00                    2e-06                    2e-05
+                 8e+00                    1e+00                    1e+00                    2e-07                    1e-05
+                 9e+00                    7e-01                    1e+00                    4e-06                    3e-05
+                 1e+01                    8e-01                    2e+00                    8e-06                    3e-05
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 10.0007054735123891134416031731129
+Steps                         = 1573
+Error test fails              = 144
+NLS step fails                = 0
+Constraint fails              = 0
+Constraint corrections        = 0
+Initial step size             = 0.000102986025609449698383140438102215
+Last step size                = 0.00643392731645696861093718015340712
+Current step size             = 0.0097398906773625088364090180378508
+Last method order             = 5
+Current method order          = 5
+Stab. lim. order reductions   = 0
+RHS fn evals                  = 2168
+NLS iters                     = 2165
+NLS fails                     = 0
+NLS iters per step            = 1.3763509218054672600127145581691
+LS setups                     = 266
+Jac fn evals                  = 29
+LS RHS fn evals               = 0
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 0
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 0
+LS iters per NLS iter         = 0
+Jac evals per NLS iter        = 0.0133949191685912240184757505773672
+Prec evals per NLS iter       = 0
+Root fn evals                 = 0

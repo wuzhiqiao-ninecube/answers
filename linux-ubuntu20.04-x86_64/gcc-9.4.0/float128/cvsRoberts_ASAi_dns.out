@@ -1,0 +1,149 @@
+
+Adjoint Sensitivity Example for Chemical Kinetics
+-------------------------------------------------
+
+ODE: dy1/dt = -p1*y1 + p2*y2*y3
+     dy2/dt =  p1*y1 - p2*y2*y3 - p3*(y2)^2
+     dy3/dt =  p3*(y2)^2
+
+Find dG/dp for
+     G = int_t0^tB0 g(t,p,y) dt
+     g(t,p,y) = y3
+
+
+Create and allocate CVODES memory for forward runs
+Forward integration ... done (ncheck = 5)
+--------------------------------------------------------
+G:            3.9983e+07 
+--------------------------------------------------------
+
+Final Statistics:
+Current time                  = 40096358.752998380605455259945822
+Steps                         = 845
+Error test fails              = 66
+NLS step fails                = 0
+Constraint fails              = 0
+Constraint corrections        = 0
+Initial step size             = 1.6561517585431437950818065509132e-16
+Last step size                = 1807782.60897274960105346969152937
+Current step size             = 1807782.60897274960105346969152937
+Last method order             = 4
+Current method order          = 4
+Stab. lim. order reductions   = 0
+RHS fn evals                  = 1206
+NLS iters                     = 1203
+NLS fails                     = 0
+NLS iters per step            = 1.4236686390532544378698224852071
+LS setups                     = 170
+Jac fn evals                  = 17
+LS RHS fn evals               = 0
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 0
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 0
+LS iters per NLS iter         = 0
+Jac evals per NLS iter        = 0.0141313383208645054031587697423109
+Prec evals per NLS iter       = 0
+Root fn evals                 = 0
+Quad fn evals                 = 848
+Quad error test fails         = 0
+
+Create and allocate CVODES memory for backward run
+Backward integration from tB0 =   4.0000e+07
+
+--------------------------------------------------------
+returned t:   4.0000e+01
+tout:         4.0000e+01
+lambda(t):    3.9967e+07   3.9967e+07   3.9967e+07
+y(t):         7.1583e-01   9.1856e-06   2.8416e-01
+--------------------------------------------------------
+--------------------------------------------------------
+returned t:   0.0000e+00
+lambda(t0):   3.9967e+07   3.9967e+07   3.9967e+07
+y(t0):        1.0000e+00   0.0000e+00   0.0000e+00
+dG/dp:        7.6842e+05  -3.0691e+00   5.1152e-04
+--------------------------------------------------------
+
+Final Statistics:
+Current time                  = 0
+Steps                         = 249
+Error test fails              = 1
+NLS step fails                = 0
+Constraint fails              = 0
+Constraint corrections        = 0
+Initial step size             = -4.68430455655953067659499311692587e-13
+Last step size                = -0.224697385110575214996586370267505
+Current step size             = -0.224697385110575214996586370267505
+Last method order             = 3
+Current method order          = 3
+Stab. lim. order reductions   = 0
+RHS fn evals                  = 291
+NLS iters                     = 288
+NLS fails                     = 0
+NLS iters per step            = 1.1566265060240963855421686746988
+LS setups                     = 89
+Jac fn evals                  = 5
+LS RHS fn evals               = 0
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 0
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 0
+LS iters per NLS iter         = 0
+Jac evals per NLS iter        = 0.0173611111111111111111111111111111
+Prec evals per NLS iter       = 0
+Root fn evals                 = 0
+Quad fn evals                 = 284
+Quad error test fails         = 32
+
+Re-initialize CVODES memory for backward run
+Backward integration from tB0 =   5.0000e+01
+
+--------------------------------------------------------
+returned t:   4.0000e+01
+tout:         4.0000e+01
+lambda(t):    2.8959e-01   1.7624e+00   9.3567e+00
+y(t):         7.1583e-01   9.1856e-06   2.8416e-01
+--------------------------------------------------------
+--------------------------------------------------------
+returned t:   0.0000e+00
+lambda(t0):   8.4191e+00   1.6097e+01   1.6097e+01
+y(t0):        1.0000e+00   0.0000e+00   0.0000e+00
+dG/dp:        1.7341e+02  -5.0592e-04   8.4323e-08
+--------------------------------------------------------
+
+Final Statistics:
+Current time                  = 0
+Steps                         = 178
+Error test fails              = 14
+NLS step fails                = 0
+Constraint fails              = 0
+Constraint corrections        = 0
+Initial step size             = -1.56629162887803193746344275070953e-14
+Last step size                = -0.000348555813948402453840057010685167
+Current step size             = -0.000348555813948402453840057010685167
+Last method order             = 4
+Current method order          = 4
+Stab. lim. order reductions   = 0
+RHS fn evals                  = 261
+NLS iters                     = 258
+NLS fails                     = 4
+NLS iters per step            = 1.44943820224719101123595505617978
+LS setups                     = 48
+Jac fn evals                  = 8
+LS RHS fn evals               = 0
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 0
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 0
+LS iters per NLS iter         = 0
+Jac evals per NLS iter        = 0.031007751937984496124031007751938
+Prec evals per NLS iter       = 0
+Root fn evals                 = 0
+Quad fn evals                 = 181
+Quad error test fails         = 0

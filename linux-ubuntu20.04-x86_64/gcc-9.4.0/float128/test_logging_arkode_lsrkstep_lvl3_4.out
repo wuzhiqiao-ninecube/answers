@@ -1,0 +1,58 @@
+Start LSRKStep Logging test
+                                        t                                        y                                    y err
+---------------------------------------------------------------------------------------------------------------------------
+  0.000000000000000000000000000000000e+00  0.000000000000000000000000000000000e+00  0.000000000000000000000000000000000e+00
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 1, tn = 0, h = 1.86264514923095703125e-16
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 0, tcur = 0
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 1, tcur = 9.31322574615478515625e-17
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 2, tcur = 1.86264514923095703125e-16
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 3, tcur = 9.31322574615478515625e-17
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 4, tcur = 1.86264514923095703125e-16
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 2.77967529849588347198615792583754e-39
+  1.862645149230957031250000000000000e-16  1.862645149230957031249999999999979e-16  2.138211768073756516912429173721186e-50
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 2, tn = 1.86264514923095703125e-16, h = 1.86264514923095703125e-12
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 0, tcur = 1.86264514923095703125e-16
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 1, tcur = 9.31508839130401611328125e-13
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 2, tcur = 1.862831413745880126953125e-12
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 3, tcur = 9.31508839130401611328125e-13
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 4, tcur = 1.862831413745880126953125e-12
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 2.69264522873857428227394386925419e-27
+  1.862831413745880126953125000000000e-12  1.862831413745880126953122845237523e-12  7.006492321624085354618647916449581e-46
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 3, tn = 1.862831413745880126953125e-12, h = 3.7252902984619140625e-11
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 0, tcur = 1.862831413745880126953125e-12
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 1, tcur = 2.0489282906055450439453125e-11
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 2, tcur = 3.9115734398365020751953125e-11
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 3, tcur = 2.0489282906055450439453125e-11
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepSSP43][begin-stages-list] stage = 4, tcur = 3.9115734398365020751953125e-11
+[INFO][rank 0][lsrkStep_TakeStepSSP43][end-stages-list] status = success
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 2.15411626948304126587050361076073e-23
+  3.911573439836502075195312499999999e-11  3.911573439836502075193317544515921e-11  7.945362292721712792137546737253824e-41
+---------------------------------------------------------------------------------------------------------------------------
+Current time                  = 3.9115734398365020751953125e-11
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 3
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 1.86264514923095703125e-16
+Last step size                = 3.7252902984619140625e-11
+Current step size             = 7.450580596923828125e-10
+RHS fn evals                  = 14
+Number of stages used         = 4
+End LSRKStep Logging test

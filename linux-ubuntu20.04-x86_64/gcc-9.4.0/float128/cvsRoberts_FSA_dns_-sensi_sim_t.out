@@ -1,0 +1,70 @@
+[ERROR][rank 0][/mnt/d/workon/sundials/src/cvodes/cvodes.c:8200][cvHandleFailure] At t = 609.80970132674185632104848310304 and h = 0.00012619169257054345168850546078966, the error test failed repeatedly or with |h| = hmin.
+
+SUNDIALS_ERROR: CVode() failed with retval = -3
+
+ 
+3-species kinetics problem
+Sensitivity: YES ( SIMULTANEOUS + FULL ERROR CONTROL )
+
+=======================================================================
+     T     Q       H      NST           y1           y2           y3    
+=======================================================================
+4.000e-01  4  6.905e-02   119
+                  Solution         9.8517e-01   3.3864e-05   1.4794e-02 
+                  Sensitivity 1   -3.5595e-01   3.9026e-04   3.5556e-01 
+                  Sensitivity 2    9.5437e-08  -2.1309e-10  -9.5224e-08 
+                  Sensitivity 3   -1.5834e-11  -5.2900e-13   1.6363e-11 
+-----------------------------------------------------------------------
+4.000e+00  5  1.653e-01   145
+                  Solution         9.0552e-01   2.2405e-05   9.4459e-02 
+                  Sensitivity 1   -1.8761e+00   1.7922e-04   1.8759e+00 
+                  Sensitivity 2    2.9614e-06  -5.8305e-10  -2.9608e-06 
+                  Sensitivity 3   -4.9334e-10  -2.7626e-13   4.9362e-10 
+-----------------------------------------------------------------------
+4.000e+01  2  1.102e+00   250
+                  Solution         7.1581e-01   9.1848e-06   2.8418e-01 
+                  Sensitivity 1   -4.2478e+00   4.5903e-05   4.2477e+00 
+                  Sensitivity 2    1.3732e-05  -2.3568e-10  -1.3732e-05 
+                  Sensitivity 3   -2.2886e-09  -1.1380e-13   2.2887e-09 
+-----------------------------------------------------------------------
+4.000e+02  3  9.313e+00   359
+                  Solution         4.5050e-01   3.2227e-06   5.4949e-01 
+                  Sensitivity 1   -5.9585e+00   3.5402e-06   5.9585e+00 
+                  Sensitivity 2    2.2739e-05  -2.2591e-11  -2.2739e-05 
+                  Sensitivity 3   -3.7898e-09  -4.9947e-14   3.7898e-09 
+-----------------------------------------------------------------------
+
+Final Statistics:
+Current time                  = 609.80970132674185632104848310304
+Steps                         = 381
+Error test fails              = 25
+NLS step fails                = 0
+Constraint fails              = 0
+Constraint corrections        = 0
+Initial step size             = 1.6561517585431437950818065509132e-18
+Last step size                = 9.31332047825849006259104353661576
+Current step size             = 0.00012619169257054345168850546078966
+Last method order             = 3
+Current method order          = 3
+Stab. lim. order reductions   = 0
+RHS fn evals                  = 586
+NLS iters                     = 582
+NLS fails                     = 2
+NLS iters per step            = 1.52755905511811023622047244094488
+LS setups                     = 79
+Jac fn evals                  = 8
+LS RHS fn evals               = 0
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 0
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 0
+LS iters per NLS iter         = 0
+Jac evals per NLS iter        = 0.0137457044673539518900343642611684
+Prec evals per NLS iter       = 0
+Root fn evals                 = 0
+Sens fn evals                 = 1758
+Sens RHS fn evals             = 0
+Sens error test fails         = 0
+Sens LS setups                = 0

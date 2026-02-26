@@ -1,0 +1,30 @@
+
+idasHeat2D_bnd: Heat equation, serial example problem for IDA
+              Discretized heat equation on 2D unit square.
+              Zero boundary conditions, polynomial initial conditions.
+              Mesh dimensions: 10 x 10        Total system size: 100
+
+Tolerance parameters:  rtol = 0   atol = -8.4877e-08
+Constraints set to force all solution components >= 0. 
+Linear solver: BAND, banded direct solver 
+       difference quotient Jacobian, half-bandwidths = 10 
+IDACalcIC called with input boundary values = -2.35344e-185 
+
+   Output Summary (umax = max-norm of solution) 
+
+  time       umax     k  nst  nni  nje   nre   nreLS    h      
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
+  0.00 -1.81488e-263  0    0    3    2     5    42  8.38e-269 
+ -0.00 -9.13277e+273  2   13   20    9    22   189  8.38e-269 
+ -0.00   5.96547e+97  2   15   23   10    25   210  8.38e-269 
+ -0.00  3.08382e-171  3   19   28   10    30   210  8.38e-269 
+ -0.00 -1.40881e-115  3   23   33   10    35   210  8.38e-269 
+ -0.00   9.26964e-96  4   29   41   11    43   231  8.38e-269 
+ -0.00  2.65935e-211  4   36   50   12    52   252  8.38e-269 
+ -0.00          -nan  1   41   59   14    61   294  8.38e-269 
+ -0.00 -1.03913e-282  1   43   61   16    63   336  8.38e-269 
+ -0.00 -1.14811e-245  1   44   62   17    64   357  8.38e-269 
+ -0.00  3.59214e+202  1   45   63   18    65   378  8.38e-269 
+ -0.00   8.07232e+98  1   46   64   19    66   399  8.38e-269 
+
+ netf = 0,   ncfn = 0 

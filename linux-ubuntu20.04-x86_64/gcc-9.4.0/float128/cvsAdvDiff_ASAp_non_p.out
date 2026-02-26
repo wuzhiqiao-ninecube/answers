@@ -1,0 +1,18 @@
+[ERROR][rank 0][/mnt/d/workon/sundials/src/cvodes/cvodes.c:3503][CVode] At t = 2.05711898939465910077529198883469, mxstep steps taken before reaching tout.
+[ERROR][rank 0][/mnt/d/workon/sundials/src/cvodes/cvodea.c:1614][CVodeB] Error occurred while integrating backward problem # 0
+
+SUNDIALS_ERROR(0): CVodeB() failed with retval = -1
+
+
+SUNDIALS_ERROR(1): CVodeB() failed with retval = -1
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[DESKTOP-K4RAB39:44408] 1 more process has sent help message help-mpi-api.txt / mpi-abort
+[DESKTOP-K4RAB39:44408] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

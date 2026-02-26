@@ -1,0 +1,72 @@
+Start CVODES Logging test
+Using fixed-point nonlinear solver
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+0.000000000000000000000000000000000e+001.224744871391589049098642037352946e+001.732050807568877293527446341505872e+000.000000000000000000000000000000000e+000.000000000000000000000000000000000e+00
+[INFO][rank 0][cvStep][begin-step-attempt] step = 1, tn = 0, h = 0.000102986025609449698383140438102215, q = 1
+[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 0.2
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 0.49997538131728584386105281248559
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 6.25902623328379683131702806830508e-05
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
+[INFO][rank 0][cvNls][end-nonlinear-solve] status = success, iters = 2
+[INFO][rank 0][cvStep][end-step-attempt] status = success, dsm = 0.249962189954977727597345432883619
+1.029860256094496983831404381022150e-041.224744869195305397297781708450126e+001.732049582942475242757145032022165e+001.113800912549604617890482954795307e-096.122818016699804169549441326567821e-07
+[INFO][rank 0][cvStep][begin-step-attempt] step = 2, tn = 0.000102986025609449698383140438102215, h = 0.000102986025609449698383140438102215, q = 1
+[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 0.2
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 0.499974683995844018441352269700198
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 6.2301945797925653794726984157614e-05
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
+[INFO][rank 0][cvNls][end-nonlinear-solve] status = success, iters = 2
+[INFO][rank 0][cvStep][end-step-attempt] status = success, dsm = 0.249962018078795341386699683127938
+2.059720512188993967662808762044300e-041.224744864802767178064322609187873e+001.732047133691378913416638287088999e+002.258890919769768303014175845363978e-091.224500395777882825612432319143615e-06
+[INFO][rank 0][cvStep][begin-step-attempt] step = 3, tn = 0.00020597205121889939676628087620443, h = 0.00102986025609449698383140438102215, q = 2
+[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 0.406451612903225806451612903225806
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 33.3437764838273098138163298799581
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.0264464352088682701750567485439822
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
+[INFO][rank 0][cvNls][end-nonlinear-solve] status = success, iters = 2
+[INFO][rank 0][cvStep][end-step-attempt] status = failed error test, dsm = 8.19847295513111404011680527435442, eflag = 5
+[INFO][rank 0][cvStep][begin-step-attempt] step = 3, tn = 0.00020597205121889939676628087620443, h = 0.00028107147554095933100313475782887, q = 2
+[INFO][rank 0][cvNls][begin-nonlinear-solve] tol = 0.421768331512943045466605262028728
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-solver] solver = Fixed-Point
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 1, update-norm = 2.4829440840471843568275196173297
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = continue
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][begin-iterations-list] 
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][nonlinear-iterate] cur-iter = 2, update-norm = 0.000555912627677902342544528748757779
+[INFO][rank 0][SUNNonlinSolSolve_FixedPoint][end-iterations-list] status = success
+[INFO][rank 0][cvNls][end-nonlinear-solve] status = success, iters = 2
+[INFO][rank 0][cvStep][end-step-attempt] status = success, dsm = 0.58859211384162937493066895197215
+4.870435267598587277694156340333000e-041.224744841922327429670841375980911e+001.732034367982330380987406327185058e+005.258975036986031998752968697151800e-092.744234303212011859729872848032558e-06
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.0004870435267598587277694156340333
+Steps                         = 3
+Error test fails              = 1
+NLS step fails                = 0
+Constraint fails              = 0
+Constraint corrections        = 0
+Initial step size             = 0.000102986025609449698383140438102215
+Last step size                = 0.00028107147554095933100313475782887
+Current step size             = 0.00028107147554095933100313475782887
+Last method order             = 2
+Current method order          = 2
+Stab. lim. order reductions   = 0
+RHS fn evals                  = 11
+NLS iters                     = 8
+NLS fails                     = 0
+NLS iters per step            = 2.66666666666666666666666666666667
+LS setups                     = 0
+Root fn evals                 = 0
+End CVODES Logging test
