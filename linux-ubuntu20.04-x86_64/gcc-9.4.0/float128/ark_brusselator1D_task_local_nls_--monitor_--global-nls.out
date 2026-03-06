@@ -1,0 +1,33 @@
+
+1D Advection-Reaction Test Problem
+
+Number of Processors = 4
+Mesh Info:
+  NX = 100, NXL = 25, dx = 0.010000, xmax = 1.000000
+Problem Parameters:
+  A = 1
+  B = 3.5
+  k = 1
+  c = 0.01
+Integrator Options:
+  order            = 3
+  method           = imex
+  fused vector ops = 0
+  t0               = 0
+  tf               = 10
+  reltol           = 1.0e-06
+  abstol           = 1.0e-09
+  nout             = 40
+  nonlinear solver = global
+Output directory: .
+
+          t         ||u||_rms   ||v||_rms   ||w||_rms
+   ----------------------------------------------------
+       0.000000     0.517554     1.767521     1.517523
+       0.250000     0.537981     1.740967     1.749991
+       0.500000     0.568003     1.699019     1.749986
+       0.750000     0.611085     1.636128     1.749989
+       1.000000     0.669141     1.547987     1.751721
+       1.250000     0.735179     1.438224     1.749952
+       1.500000     0.786604     1.324893     1.749987
+       1.750000     0.799640     1.233262     1.749987

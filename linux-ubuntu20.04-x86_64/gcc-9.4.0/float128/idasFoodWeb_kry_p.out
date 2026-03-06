@@ -1,0 +1,43 @@
+
+idasFoodWeb_kry_p: Predator-prey DAE parallel example problem for IDA 
+
+Number of species ns: 2     Mesh dimensions: 20 x 20     Total system size: 800
+Subgrid dimensions: 10 x 10     Processor array: 2 x 2
+Tolerance parameters:  rtol = 1e-05   atol = 1e-05
+Linear solver: SUNLinSol_SPGMR     Max. Krylov dimension maxl: 16
+Preconditioner: block diagonal, block size ns, via difference quotients
+CalcIC called to correct initial predator concentrations 
+
+-----------------------------------------------------------
+  t        bottom-left  top-right    | nst  k      h
+-----------------------------------------------------------
+
+0.00e+00   1.0000e+01   1.0000e+01   |   0  0   3.2645e-08
+           1.0000e+05   1.0000e+05   |
+
+1.00e-03   1.0318e+01   1.0827e+01   |  31  4   1.3371e-04
+           1.0319e+05   1.0822e+05   |
+
+
+SUNDIALS_ERROR(2): IDASolve() failed with retval = -4
+
+
+SUNDIALS_ERROR(3): IDASolve() failed with retval = -4
+
+[ERROR][rank 0][/mnt/d/workon/sundials/src/idas/idas.c:5745][IDAHandleFailure] At t = 0.0067619849367588950120913413992685 and h = 3.89160435394037890298098831474758e-15, the corrector convergence failed repeatedly or with |h| = hmin.
+
+SUNDIALS_ERROR(0): IDASolve() failed with retval = -4
+
+
+SUNDIALS_ERROR(1): IDASolve() failed with retval = -4
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[DESKTOP-K4RAB39:45069] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[DESKTOP-K4RAB39:45069] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

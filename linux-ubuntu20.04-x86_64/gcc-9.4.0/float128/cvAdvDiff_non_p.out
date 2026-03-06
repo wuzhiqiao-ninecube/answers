@@ -1,0 +1,21 @@
+
+ 1-D advection-diffusion equation, mesh size = 10 
+
+ Number of PEs =   2 
+
+At t = 0.00  max.norm(u) =  1.569909e+01  nst =   0 
+At t = 0.50  max.norm(u) =  2.953618e+00  nst = 110 
+At t = 1.00  max.norm(u) =  8.366935e-01  nst = 187 
+At t = 1.50  max.norm(u) =  2.383925e-01  nst = 263 
+At t = 2.00  max.norm(u) =  6.792950e-02  nst = 327 
+At t = 2.50  max.norm(u) =  1.935792e-02  nst = 396 
+At t = 3.00  max.norm(u) =  5.516160e-03  nst = 499 
+At t = 3.50  max.norm(u) =  1.580948e-03  nst = 595 
+At t = 4.00  max.norm(u) =  4.560087e-04  nst = 682 
+At t = 4.50  max.norm(u) =  1.313607e-04  nst = 754 
+At t = 5.00  max.norm(u) =  3.755175e-05  nst = 835 
+
+Final Statistics: 
+
+nst = 835     nfe  = 1432    nni = 1429    ncfn = 161     netf = 3
+ 

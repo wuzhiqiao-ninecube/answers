@@ -1,0 +1,59 @@
+
+idaHeat2D_kry_bbd_p: Heat equation, parallel example problem for IDA
+                Discretized heat equation on 2D unit square.
+                Zero boundary conditions, polynomial initial conditions.
+                Mesh dimensions: 10 x 10        Total system size: 100
+
+Subgrid dimensions: 5 x 5         Processor array: 2 x 2
+Tolerance parameters:  rtol = 0   atol = 0.001
+Constraints set to force all solution components >= 0. 
+SUPPRESSALG = SUNTRUE to suppress local error testing on all boundary components. 
+Linear solver: SUNLinSol_SPGMR.    Preconditioner: IDABBDPRE - Banded-block-diagonal.
+
+
+Case 1. 
+   Difference quotient half-bandwidths = 5   Retained matrix half-bandwidths = 1 
+
+   Output Summary (umax = max-norm of solution) 
+
+  time     umax       k  nst  nni  nli   nre nreLS nge     h      npe nps
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+  0.01   8.24131e-01  2   12   15    5    15    5  108  5.12e-03    9  20
+  0.02   6.88310e-01  2   14   17    9    17    9  108  5.12e-03    9  26
+  0.04   4.70614e-01  3   17   22   14    22   14  108  1.02e-02    9  36
+  0.08   2.15973e-01  3   21   26   21    26   21  108  1.02e-02    9  47
+  0.16   4.50920e-02  4   26   33   32    33   32  120  2.05e-02   10  65
+  0.32   2.19949e-03  2   33   42   48    42   48  132  4.10e-02   11  90
+  0.64 7.29207e-4942  1   37   48   55    48   55  156  1.64e-01   13 103
+  1.28 2.77286e-4942  1   39   50   55    50   55  180  6.55e-01   15 105
+  2.56   2.93995e-72  1   40   51   55    51   55  192  1.31e+00   16 106
+  5.12   9.32211e-72  1   41   52   55    52   55  204  2.62e+00   17 107
+ 10.24   4.77419e-71  1   42   53   55    53   55  216  5.24e+00   18 108
+
+Error test failures            = 0
+Nonlinear convergence failures = 0
+Linear convergence failures    = 0
+
+
+Case 2. 
+   Difference quotient half-bandwidths = 1   Retained matrix half-bandwidths = 1 
+
+   Output Summary (umax = max-norm of solution) 
+
+  time     umax       k  nst  nni  nli   nre nreLS nge     h      npe nps
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+  0.01   8.24150e-01  2   12   15    9    15    9   36  5.12e-03    9  24
+  0.02   6.88310e-01  2   14   17   15    17   15   36  5.12e-03    9  32
+  0.04   4.70443e-01  3   17   22   22    22   22   36  1.02e-02    9  44
+  0.08   2.16240e-01  3   21   26   31    26   31   36  1.02e-02    9  57
+  0.16   4.50007e-02  4   26   33   46    33   46   40  2.05e-02   10  79
+  0.32   2.06220e-03  2   33   43   70    43   70   44  4.10e-02   11 113
+  0.64   1.71666e-05  1   36   48   83    48   83   52  1.64e-01   13 131
+  1.28   1.19638e-37  1   38   51   89    51   89   60  6.55e-01   15 140
+  2.56   4.76876e-38  1   39   52   89    52   89   64  1.31e+00   16 141
+  5.12   6.48532e-06  1   40   53   89    53   89   68  2.62e+00   17 142
+ 10.24   7.48961e-06  1   41   54   90    54   90   72  5.24e+00   18 144
+
+Error test failures            = 0
+Nonlinear convergence failures = 0
+Linear convergence failures    = 0

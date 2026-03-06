@@ -1,0 +1,43 @@
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+                 0e+00                    1e+00                    2e+00                    0e+00                    0e+00
+                 1e+00                    1e+00                    2e+00                    9e-07                    1e-06
+                 2e+00                    9e-01                    1e+00                    8e-07                    1e-06
+                 3e+00                    7e-01                    1e+00                    2e-07                    7e-06
+                 4e+00                    8e-01                    1e+00                    9e-08                    1e-06
+                 5e+00                    1e+00                    2e+00                    2e-06                    7e-06
+                 6e+00                    1e+00                    2e+00                    2e-06                    9e-06
+                 7e+00                    1e+00                    1e+00                    4e-06                    2e-05
+                 8e+00                    1e+00                    1e+00                    3e-06                    7e-07
+                 9e+00                    7e-01                    1e+00                    7e-07                    6e-06
+                 1e+01                    8e-01                    2e+00                    8e-07                    1e-06
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 10.0077732532292896894736332664854
+Steps                         = 1866
+Error test fails              = 83
+NLS step fails                = 0
+Constraint fails              = 0
+Constraint corrections        = 0
+Initial step size             = 0.001
+Last step size                = 0.00919371079684158584914322547482728
+Current step size             = 0.00919371079684158584914322547482728
+Last method order             = 5
+Current method order          = 5
+Residual fn evals             = 2523
+IC linesearch backtrack ops   = 0
+NLS iters                     = 2523
+NLS fails                     = 0
+NLS iters per step            = 1.35209003215434083601286173633441
+LS setups                     = 82
+Jac fn evals                  = 82
+LS residual fn evals          = 0
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 0
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 0
+LS iters per NLS iter         = 0
+Jac evals per NLS iter        = 0.0325009908838684106222750693618708
+Prec evals per NLS iter       = 0
+Root fn evals                 = 0

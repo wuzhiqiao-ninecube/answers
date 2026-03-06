@@ -1,0 +1,50 @@
+ 
+3-species kinetics problem
+
+At t = 2.6393e-01      y =  9.899653e-01    3.470559e-05    1.000000e-02
+    rootsfound[] =   0   1
+At t = 4.0000e-01      y =  9.851670e-01    3.386307e-05    1.479909e-02
+At t = 4.0000e+00      y =  9.055236e-01    2.240506e-05    9.445401e-02
+At t = 4.0000e+01      y =  7.158348e-01    9.186274e-06    2.841560e-01
+At t = 4.0000e+02      y =  4.505829e-01    3.223859e-06    5.494139e-01
+At t = 4.0000e+03      y =  1.831865e-01    8.941472e-07    8.168126e-01
+At t = 4.0000e+04      y =  3.898216e-02    1.621704e-07    9.610177e-01
+At t = 4.0000e+05      y =  4.938664e-03    1.985153e-08    9.950613e-01
+At t = 4.0000e+06      y =  5.167090e-04    2.067891e-09    9.994833e-01
+At t = 2.0781e+07      y =  1.000000e-04    4.000386e-10    9.999000e-01
+    rootsfound[] =  -1   0
+At t = 4.0000e+07      y =  5.193334e-05    2.077440e-10    9.999481e-01
+At t = 4.0000e+08      y =  5.186048e-06    2.074431e-11    9.999948e-01
+At t = 4.0000e+09      y =  5.175342e-07    2.070138e-12    9.999995e-01
+At t = 4.0000e+10      y =  4.722158e-08    1.888863e-13    1.000000e+00
+
+Final Statistics:
+Current time                  = 42049357273.9609990563911820850201
+Steps                         = 594
+Error test fails              = 22
+NLS step fails                = 0
+Constraint fails              = 0
+Constraint corrections        = 0
+Initial step size             = 1.6561517585431437950818065509132e-18
+Last step size                = 4417494909.32670888368605392231608
+Current step size             = 4417494909.32670888368605392231608
+Last method order             = 2
+Current method order          = 2
+Stab. lim. order reductions   = 0
+RHS fn evals                  = 830
+NLS iters                     = 827
+NLS fails                     = 1
+NLS iters per step            = 1.39225589225589225589225589225589
+LS setups                     = 106
+Jac fn evals                  = 12
+LS RHS fn evals               = 0
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 0
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 0
+LS iters per NLS iter         = 0
+Jac evals per NLS iter        = 0.0145102781136638452237001209189843
+Prec evals per NLS iter       = 0
+Root fn evals                 = 641

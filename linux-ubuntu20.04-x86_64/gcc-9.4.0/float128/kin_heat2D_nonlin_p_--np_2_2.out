@@ -1,0 +1,53 @@
+
+Stationary 2D Heat PDE with Nonlinear Terms:
+ --------------------------------- 
+  nprocs         = 4
+  npx            = 2
+  npy            = 2
+ --------------------------------- 
+  kx             = 1
+  ky             = 1
+  xu             = 1
+  yu             = 1
+  nx             = 35
+  ny             = 35
+  nxl (proc 0)   = 18
+  nyl (proc 0)   = 18
+  dx             = 0.0294118
+  dy             = 0.0294118
+ --------------------------------- 
+  rtol           = 1e-08
+  maa            = 60
+  damping        = 1
+  orthaa         = 0
+  maxits         = 200
+ --------------------------------- 
+  c              = 1
+ --------------------------------- 
+  output         = 1
+ --------------------------------- 
+
+[ERROR][rank 0][/mnt/d/workon/sundials/src/kinsol/kinsol.c:555][KINSol] The maximum number of iterations was reached before convergence.
+
+ERROR: KINSol returned -6
+
+
+ERROR: KINSol returned -6
+
+
+ERROR: KINSol returned -6
+
+
+ERROR: KINSol returned -6
+
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[57205,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------

@@ -1,0 +1,59 @@
+Start LSRKStep Logging test
+                                        t                                        y                                    y err
+---------------------------------------------------------------------------------------------------------------------------
+  0.000000000000000000000000000000000e+00  0.000000000000000000000000000000000e+00  0.000000000000000000000000000000000e+00
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 1, tn = 0, h = 1.86264514923095703125e-16
+[INFO][rank 0][lsrkStep_TakeStepRKL][compute-num-stages] spectral radius = 999.9, num stages = 2, max stages = 2, max stage limit = 200
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-stages-list] stage = 0, tcur = 0
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-stages-list] stage = 1, tcur = 6.20881716410319010416666666666667e-17
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-stages-list] stage = 2, tcur = 1.86264514923095703125e-16
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-compute-embedding] 
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-compute-embedding] status = success
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 1.73195153213974277869906763071416e-38
+  1.862645149230957031250000000000000e-16  1.862645149230957031249999999999989e-16  1.090488001717615823625338878597805e-48
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 2, tn = 1.86264514923095703125e-16, h = 1.86264514923095703125e-12
+[INFO][rank 0][lsrkStep_TakeStepRKL][compute-num-stages] spectral radius = 999.9, num stages = 2, max stages = 2, max stage limit = 200
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-stages-list] stage = 0, tcur = 1.86264514923095703125e-16
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-stages-list] stage = 1, tcur = 6.21067980925242106119791666666667e-13
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-stages-list] stage = 2, tcur = 1.862831413745880126953125e-12
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-compute-embedding] 
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-compute-embedding] status = success
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 1.72329294378276915085521363355589e-26
+  1.862831413745880126953125000000000e-12  1.862831413745880126953123922295611e-12  1.077058089395488193451915855765800e-36
+[INFO][rank 0][ARKodeEvolve][begin-step-attempt] step = 3, tn = 1.862831413745880126953125e-12, h = 3.7252902984619140625e-11
+[INFO][rank 0][lsrkStep_TakeStepRKL][compute-num-stages] spectral radius = 999.9, num stages = 2, max stages = 2, max stage limit = 200
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-stages-list] stage = 0, tcur = 1.862831413745880126953125e-12
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-stages-list] stage = 1, tcur = 1.42804657419522603352864583333333e-11
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-stages-list] stage = 2, tcur = 3.9115734398365020751953125e-11
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-stages-list] status = success
+[INFO][rank 0][lsrkStep_TakeStepRKL][begin-compute-embedding] 
+[INFO][rank 0][lsrkStep_TakeStepRKL][end-compute-embedding] status = success
+[INFO][rank 0][ARKodeEvolve][end-step-attempt] status = success, dsm = 1.37863433718769488104865955190753e-22
+  3.911573439836502075195312499999999e-11  3.911573439836502075194179298680069e-11  8.617541720933720922545246193438339e-33
+---------------------------------------------------------------------------------------------------------------------------
+Current time                  = 3.9115734398365020751953125e-11
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 3
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 1.86264514923095703125e-16
+Last step size                = 3.7252902984619140625e-11
+Current step size             = 7.450580596923828125e-10
+RHS fn evals                  = 9
+Number of dom_eig updates     = 1
+Max. num. of stages used      = 2
+Max. num. of stages allowed   = 200
+Max. spectral radius          = 999.9
+Min. spectral radius          = 999.9
+End LSRKStep Logging test

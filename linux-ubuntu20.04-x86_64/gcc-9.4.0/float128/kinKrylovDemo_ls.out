@@ -1,0 +1,57 @@
+[ERROR][rank 0][/mnt/d/workon/sundials/src/kinsol/kinsol.c:743][KINSol] The linear solver's solve function failed recoverably, but the Jacobian data is already current.
+
+SUNDIALS_ERROR: KINSol() failed with flag = -9
+
+ ------- 
+| SPGMR |
+ -------
+
+Predator-prey test problem --  KINSol (serial version)
+
+Mesh dimensions = 5 X 5
+Number of species = 6
+Total system size = 150
+
+Flag globalstrategy = 0 (0 = None, 1 = Linesearch)
+Linear solver is SPGMR with maxl = 15, maxlrst = 2
+Preconditioning uses interaction-only block-diagonal matrix
+Positivity constraints imposed on all components 
+Tolerance parameters:  fnormtol = 1e-07   scsteptol = 1e-13
+
+Initial profile of concentration
+At all mesh points:  1 1 1   30000 30000 30000
+
+
+Computed equilibrium species concentrations:
+
+At bottom left:
+ 1.16253 1.16253 1.16253 34875 34875 34875
+
+At top right:
+ 1.2637 1.2637 1.2637 37908.7 37908.7 37908.7
+
+Final Statistics.. 
+nni    =     5    nli   =   113
+nfe    =     6    nfeSG =   118
+nps    =   118    npe   =     1     ncfl  =     0
+
+=========================================================
+
+ -------- 
+| SPBCGS |
+ --------
+
+Predator-prey test problem --  KINSol (serial version)
+
+Mesh dimensions = 5 X 5
+Number of species = 6
+Total system size = 150
+
+Flag globalstrategy = 0 (0 = None, 1 = Linesearch)
+Linear solver is SPBCGS with maxl = 15
+Preconditioning uses interaction-only block-diagonal matrix
+Positivity constraints imposed on all components 
+Tolerance parameters:  fnormtol = 1e-07   scsteptol = 1e-13
+
+Initial profile of concentration
+At all mesh points:  1 1 1   30000 30000 30000

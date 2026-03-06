@@ -1,0 +1,323 @@
+Timer resolution: 1 ns = 1e-09 s
+Testing the MPIManyVector (parallel, shared comm) N_Vector
+Vector 1 (serial) local length 1000
+Vector 2 (parallel) global length 800
+ManyVector global length 4800
+MPI processes 4
+>>> FAILED test -- N_VGetLength, Proc 3 (4800 != 1200)
+>>> FAILED test -- N_VGetLength, Proc 3
+
+PASSED test -- N_VGetVectorID 
+>>> FAILED test -- N_VGetLength, Proc 0 (4800 != 1200)
+>>> FAILED test -- N_VGetLength, Proc 0
+
+PASSED test -- N_VGetCommunicator
+
+Testing standard vector operations:
+
+PASSED test -- N_VConst 
+PASSED test -- N_VLinearSum Case 1a 
+PASSED test -- N_VLinearSum Case 1b 
+PASSED test -- N_VLinearSum Case 1c 
+PASSED test -- N_VLinearSum Case 2a 
+>>> FAILED test -- N_VGetLength, Proc 1 (4800 != 1200)
+>>> FAILED test -- N_VGetLength, Proc 1
+
+>>> FAILED test -- N_VGetLength, Proc 2 (4800 != 1200)
+>>> FAILED test -- N_VGetLength, Proc 2
+
+PASSED test -- N_VLinearSum Case 2b 
+PASSED test -- N_VLinearSum Case 2c 
+PASSED test -- N_VLinearSum Case 3 
+PASSED test -- N_VLinearSum Case 4a 
+PASSED test -- N_VLinearSum Case 4b 
+PASSED test -- N_VLinearSum Case 5a 
+PASSED test -- N_VLinearSum Case 5b 
+PASSED test -- N_VLinearSum Case 6a 
+PASSED test -- N_VLinearSum Case 6b 
+PASSED test -- N_VLinearSum Case 7 
+PASSED test -- N_VLinearSum Case 8 
+PASSED test -- N_VLinearSum Case 9 
+PASSED test -- N_VProd 
+PASSED test -- N_VDiv 
+PASSED test -- N_VScale Case 1 
+PASSED test -- N_VScale Case 2 
+PASSED test -- N_VScale Case 3 
+PASSED test -- N_VScale Case 4 
+PASSED test -- N_VAbs 
+PASSED test -- N_VInv 
+PASSED test -- N_VAddConst 
+>>> FAILED test -- N_VDotProd, Proc 0 
+PASSED test -- N_VMaxNorm Case 1
+>>> FAILED test -- N_VMaxNorm Case 2, Proc 0 
+>>> FAILED test -- N_VWrmsNorm, Proc 0 
+>>> FAILED test -- N_VWrmsNormMask, Proc 0 
+>>> FAILED test -- N_VMin Case 1, Proc 0 
+    min = 1.000000, expected 0.500000
+>>> FAILED test -- N_VMin, Proc 0 
+    min = -1.000000, expected -2.000000
+>>> FAILED test -- N_VWL2Norm, Proc 0 
+>>> FAILED test -- N_VL1Norm, Proc 0 
+PASSED test -- N_VCompare 
+PASSED test -- N_VInvTest Case 1 
+PASSED test -- N_VInvTest Case 2 
+PASSED test -- N_VConstrMask Case 1 
+PASSED test -- N_VConstrMask Case 2 
+>>> FAILED test -- N_VMinQuotient Case 1, Proc 0 
+    min = 0.500000, expected 0.250000
+PASSED test -- N_VMinQuotient Case 2 
+
+Testing fused and vector array operations (disabled):
+
+PASSED test -- N_VLinearCombination Case 1a 
+PASSED test -- N_VLinearCombination Case 1b 
+PASSED test -- N_VLinearCombination Case 2a 
+PASSED test -- N_VLinearCombination Case 2b 
+PASSED test -- N_VLinearCombination Case 3a 
+PASSED test -- N_VLinearCombination Case 3b 
+PASSED test -- N_VLinearCombination Case 3c 
+PASSED test -- N_VScaleAddMulti Case 1a 
+PASSED test -- N_VScaleAddMulti Case 1b 
+PASSED test -- N_VScaleAddMulti Case 2a 
+PASSED test -- N_VScaleAddMulti Case 2b 
+>>> FAILED test -- N_VDotProdMulti Case 1, Proc 0 
+>>> FAILED test -- N_VDotProd, Proc 1 
+>>> FAILED test -- N_VMaxNorm Case 2, Proc 1 
+>>> FAILED test -- N_VWrmsNorm, Proc 1 
+>>> FAILED test -- N_VWrmsNormMask, Proc 1 
+>>> FAILED test -- N_VMin Case 1, Proc 1 
+    min = 1.000000, expected 0.500000
+>>> FAILED test -- N_VMin, Proc 1 
+    min = -1.000000, expected -2.000000
+>>> FAILED test -- N_VWL2Norm, Proc 1 
+>>> FAILED test -- N_VL1Norm, Proc 1 
+>>> FAILED test -- N_VMinQuotient Case 1, Proc 1 
+    min = 0.500000, expected 0.250000
+>>> FAILED test -- N_VDotProdMulti Case 1, Proc 1 
+>>> FAILED test -- N_VDotProd, Proc 3 
+>>> FAILED test -- N_VMaxNorm Case 2, Proc 3 
+>>> FAILED test -- N_VWrmsNorm, Proc 3 
+>>> FAILED test -- N_VWrmsNormMask, Proc 3 
+>>> FAILED test -- N_VMin Case 1, Proc 3 
+    min = 1.000000, expected 0.500000
+>>> FAILED test -- N_VMin, Proc 3 
+    min = -1.000000, expected -2.000000
+>>> FAILED test -- N_VWL2Norm, Proc 3 
+>>> FAILED test -- N_VL1Norm, Proc 3 
+>>> FAILED test -- N_VMinQuotient Case 1, Proc 3 
+    min = 0.500000, expected 0.250000
+>>> FAILED test -- N_VDotProdMulti Case 1, Proc 3 
+>>> FAILED test -- N_VDotProd, Proc 2 
+>>> FAILED test -- N_VMaxNorm Case 2, Proc 2 
+>>> FAILED test -- N_VWrmsNorm, Proc 2 
+>>> FAILED test -- N_VWrmsNormMask, Proc 2 
+>>> FAILED test -- N_VMin Case 1, Proc 2 
+    min = 1.000000, expected 0.500000
+>>> FAILED test -- N_VMin, Proc 2 
+    min = -1.000000, expected -2.000000
+>>> FAILED test -- N_VWL2Norm, Proc 2 
+>>> FAILED test -- N_VL1Norm, Proc 2 
+>>> FAILED test -- N_VMinQuotient Case 1, Proc 2 
+    min = 0.500000, expected 0.250000
+>>> FAILED test -- N_VDotProdMulti Case 1, Proc 2 
+>>> FAILED test -- N_VDotProdMulti Case 2, Proc 2 
+>>> FAILED test -- N_VDotProdMulti Case 2, Proc 3 
+>>> FAILED test -- N_VDotProdMulti Case 2, Proc 0 
+>>> FAILED test -- N_VDotProdMulti Case 2, Proc 1 
+PASSED test -- N_VLinearSumVectorArray Case 0 
+PASSED test -- N_VLinearSumVectorArray Case 1a 
+PASSED test -- N_VLinearSumVectorArray Case 1b 
+PASSED test -- N_VLinearSumVectorArray Case 1c 
+PASSED test -- N_VLinearSumVectorArray Case 2a 
+PASSED test -- N_VLinearSumVectorArray Case 2b 
+PASSED test -- N_VLinearSumVectorArray Case 2c 
+PASSED test -- N_VLinearSumVectorArray Case 3 
+PASSED test -- N_VLinearSumVectorArray Case 4a 
+PASSED test -- N_VLinearSumVectorArray Case 4b 
+PASSED test -- N_VLinearSumVectorArray Case 5a 
+PASSED test -- N_VLinearSumVectorArray Case 5b 
+PASSED test -- N_VLinearSumVectorArray Case 6a 
+PASSED test -- N_VLinearSumVectorArray Case 6b 
+PASSED test -- N_VLinearSumVectorArray Case 7 
+PASSED test -- N_VLinearSumVectorArray Case 8 
+PASSED test -- N_VLinearSumVectorArray Case 9 
+PASSED test -- N_VScaleVectorArray Case 1a 
+PASSED test -- N_VScaleVectorArray Case 1b 
+PASSED test -- N_VScaleVectorArray Case 2a 
+PASSED test -- N_VScaleVectorArray Case 2b 
+PASSED test -- N_VConstVectorArray Case 1a 
+PASSED test -- N_VConstVectorArray Case 1b 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1a, Proc 0 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1b, Proc 0 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1a, Proc 2 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1b, Proc 2 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1a, Proc 3 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1b, Proc 3 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1a, Proc 1 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1b, Proc 1 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 1, Proc 1 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 2, Proc 1 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 1, Proc 0 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 2, Proc 0 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 1, Proc 2 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 2, Proc 2 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 1, Proc 3 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 2, Proc 3 
+PASSED test -- N_VScaleAddMultiVectorArray Case 1a 
+PASSED test -- N_VScaleAddMultiVectorArray Case 1b 
+PASSED test -- N_VScaleAddMultiVectorArray Case 2a 
+PASSED test -- N_VScaleAddMultiVectorArray Case 2b 
+PASSED test -- N_VScaleAddMultiVectorArray Case 3a 
+PASSED test -- N_VScaleAddMultiVectorArray Case 3b 
+PASSED test -- N_VScaleAddMultiVectorArray Case 4a 
+PASSED test -- N_VScaleAddMultiVectorArray Case 4b 
+PASSED test -- N_VLinearCombinationVectorArray Case 1a 
+PASSED test -- N_VLinearCombinationVectorArray Case 1b 
+PASSED test -- N_VLinearCombinationVectorArray Case 2a 
+PASSED test -- N_VLinearCombinationVectorArray Case 2b 
+PASSED test -- N_VLinearCombinationVectorArray Case 3a 
+PASSED test -- N_VLinearCombinationVectorArray Case 3b 
+PASSED test -- N_VLinearCombinationVectorArray Case 4a 
+PASSED test -- N_VLinearCombinationVectorArray Case 4b 
+PASSED test -- N_VLinearCombinationVectorArray Case 5a 
+PASSED test -- N_VLinearCombinationVectorArray Case 5b 
+PASSED test -- N_VLinearCombinationVectorArray Case 6a 
+PASSED test -- N_VLinearCombinationVectorArray Case 6b 
+PASSED test -- N_VLinearCombinationVectorArray Case 6c 
+
+Testing fused and vector array operations (enabled):
+
+PASSED test -- N_VLinearCombination Case 1a 
+PASSED test -- N_VLinearCombination Case 1b 
+PASSED test -- N_VLinearCombination Case 2a 
+PASSED test -- N_VLinearCombination Case 2b 
+PASSED test -- N_VLinearCombination Case 3a 
+PASSED test -- N_VLinearCombination Case 3b 
+PASSED test -- N_VLinearCombination Case 3c 
+>>> FAILED test -- N_VDotProdMulti Case 1, Proc 1 
+>>> FAILED test -- N_VDotProdMulti Case 1, Proc 3 
+>>> FAILED test -- N_VDotProdMulti Case 1, Proc 2 
+PASSED test -- N_VScaleAddMulti Case 1a 
+PASSED test -- N_VScaleAddMulti Case 1b 
+PASSED test -- N_VScaleAddMulti Case 2a 
+PASSED test -- N_VScaleAddMulti Case 2b 
+>>> FAILED test -- N_VDotProdMulti Case 1, Proc 0 
+>>> FAILED test -- N_VDotProdMulti Case 2, Proc 2 
+>>> FAILED test -- N_VDotProdMulti Case 2, Proc 1 
+>>> FAILED test -- N_VDotProdMulti Case 2, Proc 3 
+>>> FAILED test -- N_VDotProdMulti Case 2, Proc 0 
+PASSED test -- N_VLinearSumVectorArray Case 0 
+PASSED test -- N_VLinearSumVectorArray Case 1a 
+PASSED test -- N_VLinearSumVectorArray Case 1b 
+PASSED test -- N_VLinearSumVectorArray Case 1c 
+PASSED test -- N_VLinearSumVectorArray Case 2a 
+PASSED test -- N_VLinearSumVectorArray Case 2b 
+PASSED test -- N_VLinearSumVectorArray Case 2c 
+PASSED test -- N_VLinearSumVectorArray Case 3 
+PASSED test -- N_VLinearSumVectorArray Case 4a 
+PASSED test -- N_VLinearSumVectorArray Case 4b 
+PASSED test -- N_VLinearSumVectorArray Case 5a 
+PASSED test -- N_VLinearSumVectorArray Case 5b 
+PASSED test -- N_VLinearSumVectorArray Case 6a 
+PASSED test -- N_VLinearSumVectorArray Case 6b 
+PASSED test -- N_VLinearSumVectorArray Case 7 
+PASSED test -- N_VLinearSumVectorArray Case 8 
+PASSED test -- N_VLinearSumVectorArray Case 9 
+PASSED test -- N_VScaleVectorArray Case 1a 
+PASSED test -- N_VScaleVectorArray Case 1b 
+PASSED test -- N_VScaleVectorArray Case 2a 
+PASSED test -- N_VScaleVectorArray Case 2b 
+PASSED test -- N_VConstVectorArray Case 1a 
+PASSED test -- N_VConstVectorArray Case 1b 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1a, Proc 0 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1b, Proc 0 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1a, Proc 3 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1b, Proc 3 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1a, Proc 2 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1b, Proc 2 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1a, Proc 1 
+>>> FAILED test -- N_VWrmsNormVectorArray Case 1b, Proc 1 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 1, Proc 0 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 2, Proc 0 
+PASSED test -- N_VScaleAddMultiVectorArray Case 1a 
+PASSED test -- N_VScaleAddMultiVectorArray Case 1b 
+PASSED test -- N_VScaleAddMultiVectorArray Case 2a 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 1, Proc 3 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 2, Proc 3 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 1, Proc 2 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 2, Proc 2 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 1, Proc 1 
+>>> FAILED test -- N_VWrmsNormMaskVectorArray Case 2, Proc 1 
+PASSED test -- N_VScaleAddMultiVectorArray Case 2b 
+PASSED test -- N_VScaleAddMultiVectorArray Case 3a 
+PASSED test -- N_VScaleAddMultiVectorArray Case 3b 
+PASSED test -- N_VScaleAddMultiVectorArray Case 4a 
+PASSED test -- N_VScaleAddMultiVectorArray Case 4b 
+PASSED test -- N_VLinearCombinationVectorArray Case 1a 
+PASSED test -- N_VLinearCombinationVectorArray Case 1b 
+PASSED test -- N_VLinearCombinationVectorArray Case 2a 
+PASSED test -- N_VLinearCombinationVectorArray Case 2b 
+PASSED test -- N_VLinearCombinationVectorArray Case 3a 
+PASSED test -- N_VLinearCombinationVectorArray Case 3b 
+PASSED test -- N_VLinearCombinationVectorArray Case 4a 
+PASSED test -- N_VLinearCombinationVectorArray Case 4b 
+PASSED test -- N_VLinearCombinationVectorArray Case 5a 
+PASSED test -- N_VLinearCombinationVectorArray Case 5b 
+PASSED test -- N_VLinearCombinationVectorArray Case 6a 
+PASSED test -- N_VLinearCombinationVectorArray Case 6b 
+PASSED test -- N_VLinearCombinationVectorArray Case 6c 
+
+Testing local reduction operations:
+
+PASSED test -- N_VDotProdLocal
+PASSED test -- N_VMaxNormLocal
+PASSED test -- N_VMinLocal
+PASSED test -- N_VL1NormLocal
+PASSED test -- N_VWSqrSumLocal
+PASSED test -- N_VWSqrSumMaskLocal
+PASSED test -- N_VInvTestLocal Case 1
+PASSED test -- N_VInvTestLocal Case 2
+PASSED test -- N_VConstrMaskLocal Case 1 
+PASSED test -- N_VConstrMaskLocal Case 2 
+PASSED test -- N_VMinQuotientLocal Case 1 
+PASSED test -- N_VMinQuotientLocal Case 2 
+
+Testing local fused reduction operations:
+
+PASSED test -- N_VDotProdMultiLocal Case 1 
+PASSED test -- N_VDotProdMultiLocal Case 2 
+PASSED test -- N_VDotProdMultiAllReduce Case 1 
+>>> FAILED test -- N_VDotProdMultiAllReduce Case 1, Proc 0 
+>>> FAILED test -- N_VDotProdMultiAllReduce Case 1, Proc 2 
+>>> FAILED test -- N_VDotProdMultiAllReduce Case 1, Proc 1 
+>>> FAILED test -- N_VDotProdMultiAllReduce Case 1, Proc 3 
+PASSED test -- N_VDotProdMultiLocal Case 2 
+>>> FAILED test -- N_VDotProdMultiAllReduce Case 2, Proc 3 
+FAIL: NVector module failed 24 tests, Proc 3 
+
+>>> FAILED test -- N_VDotProdMultiAllReduce Case 2, Proc 2 
+FAIL: NVector module failed 24 tests, Proc 2 
+
+>>> FAILED test -- N_VDotProdMultiAllReduce Case 2, Proc 1 
+FAIL: NVector module failed 24 tests, Proc 1 
+
+>>> FAILED test -- N_VDotProdMultiAllReduce Case 2, Proc 0 
+
+Testing XBraid interface operations:
+
+PASSED test -- N_VBufSize
+PASSED test -- N_VBufPack
+PASSED test -- N_VBufUnpack
+FAIL: NVector module failed 24 tests, Proc 0 
+
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[56662,1],1]
+  Exit code:    24
+--------------------------------------------------------------------------
