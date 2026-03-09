@@ -45,25 +45,25 @@ ARKStep time step module parameters:
 
         t           u
    ---------------------
-    1.000000    0.785381
-    2.000000    1.107157
-    3.000000    1.249061
-    4.000000    1.325837
-    5.000000    1.373382
-    6.000000    1.405644
-    7.000000    1.428889
-    8.000000    1.446428
-    9.000000    1.460146
-   10.000000    1.471149
+    1.000000    0.785398
+    2.000000    1.107132
+    3.000000    1.249031
+    4.000000    1.325817
+    5.000000    1.373402
+    6.000000    1.405628
+    7.000000    1.428887
+    8.000000    1.446442
+    9.000000    1.460172
+   10.000000    1.471109
    ---------------------
 
 Final Solver Statistics:
-   Internal solver steps = 37 (attempted = 38)
-   Total RHS evals:  Fe = 0,  Fi = 381
-   Total linear solver setups = 38
+   Internal solver steps = 38 (attempted = 40)
+   Total RHS evals:  Fe = 0,  Fi = 401
+   Total linear solver setups = 39
    Total RHS evals for setting up the linear system = 0
-   Total number of Jacobian evaluations = 2
-   Total number of Newton iterations = 190
+   Total number of Jacobian evaluations = 3
+   Total number of Newton iterations = 200
    Total number of linear solver convergence failures = 0
-   Total number of error test failures = 1
+   Total number of error test failures = 2
 
