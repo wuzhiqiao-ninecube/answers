@@ -1,0 +1,28 @@
+Start ARKStep Logging test
+Using ImEx method
+Using fixed-point nonlinear solver
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+          0.000000e+00             1.224745e+00             1.732051e+00             0.000000e+00             0.000000e+00
+          1.029860e-04             1.224745e+00             1.732050e+00             0.000000e+00             1.192093e-07
+          1.241702e-02             1.224729e+00             1.723172e+00             0.000000e+00             2.384186e-07
+          2.112682e-02             1.224699e+00             1.706474e+00             0.000000e+00             1.192093e-07
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.0211268
+Steps                         = 3
+Step attempts                 = 4
+Stability limited steps       = 0
+Accuracy limited steps        = 3
+Error test fails              = 0
+NLS step fails                = 1
+Inequality constraint fails   = 0
+Initial step size             = 0.000102986
+Last step size                = 0.0087098
+Current step size             = 0.0087098
+Explicit RHS fn evals         = 27
+Implicit RHS fn evals         = 84
+NLS iters                     = 57
+NLS fails                     = 1
+NLS iters per step            = 19
+LS setups                     = 0
+End ARKStep Logging test

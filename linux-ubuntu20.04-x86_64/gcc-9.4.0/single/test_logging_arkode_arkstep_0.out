@@ -1,0 +1,27 @@
+Start ARKStep Logging test
+Using ERK method
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+          0.000000e+00             1.224745e+00             1.732051e+00             0.000000e+00             0.000000e+00
+          1.029860e-04             1.224745e+00             1.732050e+00             0.000000e+00             0.000000e+00
+          7.347051e-03             1.224739e+00             1.728937e+00             1.192093e-07             0.000000e+00
+          2.187922e-02             1.224696e+00             1.704634e+00             0.000000e+00             1.192093e-07
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.0218792
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 3
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.000102986
+Last step size                = 0.0145322
+Current step size             = 0.0146339
+Explicit RHS fn evals         = 15
+Implicit RHS fn evals         = 0
+NLS iters                     = 0
+NLS fails                     = 0
+NLS iters per step            = 0
+LS setups                     = 0
+End ARKStep Logging test

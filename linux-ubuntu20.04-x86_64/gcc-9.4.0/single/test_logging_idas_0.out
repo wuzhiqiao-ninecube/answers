@@ -1,0 +1,40 @@
+Start IDAS Logging test
+Using Newton nonlinear solver
+Using GMRES iterative linear solver
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+          0.000000e+00             1.224745e+00             1.732051e+00             0.000000e+00             0.000000e+00
+          6.250000e-05             1.224745e+00             1.732050e+00             0.000000e+00             3.576279e-07
+          1.875000e-04             1.224745e+00             1.732048e+00             0.000000e+00             1.192093e-06
+          3.125000e-04             1.224745e+00             1.732043e+00             0.000000e+00             2.145767e-06
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.0003125
+Steps                         = 3
+Error test fails              = 2
+NLS step fails                = 0
+Constraint fails              = 0
+Constraint corrections        = 0
+Initial step size             = 0.001
+Last step size                = 0.000125
+Current step size             = 0.000125
+Last method order             = 1
+Current method order          = 1
+Residual fn evals             = 8
+IC linesearch backtrack ops   = 0
+NLS iters                     = 8
+NLS fails                     = 0
+NLS iters per step            = 2.66667
+LS setups                     = 0
+Jac fn evals                  = 0
+LS residual fn evals          = 11
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 11
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 11
+LS iters per NLS iter         = 1.375
+Jac evals per NLS iter        = 0
+Prec evals per NLS iter       = 0
+Root fn evals                 = 0
+End IDAS Logging test

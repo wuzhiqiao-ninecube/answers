@@ -1,0 +1,40 @@
+Start ARKStep Logging test
+Using ImEx method
+Using Newton nonlinear solver
+Using GMRES iterative linear solver
+           t                        u                        v                      u err                    v err            
+------------------------------------------------------------------------------------------------------------------------------
+          0.000000e+00             1.224745e+00             1.732051e+00             0.000000e+00             0.000000e+00
+          1.029860e-04             1.224745e+00             1.732050e+00             0.000000e+00             1.192093e-07
+          1.241702e-02             1.224729e+00             1.723172e+00             0.000000e+00             2.384186e-07
+          4.725623e-02             1.224517e+00             1.607994e+00             1.192093e-07             1.072884e-06
+------------------------------------------------------------------------------------------------------------------------------
+Current time                  = 0.0472562
+Steps                         = 3
+Step attempts                 = 3
+Stability limited steps       = 0
+Accuracy limited steps        = 3
+Error test fails              = 0
+NLS step fails                = 0
+Inequality constraint fails   = 0
+Initial step size             = 0.000102986
+Last step size                = 0.0348392
+Current step size             = 0.0343296
+Explicit RHS fn evals         = 23
+Implicit RHS fn evals         = 60
+NLS iters                     = 37
+NLS fails                     = 0
+NLS iters per step            = 12.3333
+LS setups                     = 0
+Jac fn evals                  = 0
+LS RHS fn evals               = 52
+Prec setup evals              = 0
+Prec solves                   = 0
+LS iters                      = 52
+LS fails                      = 0
+Jac-times setups              = 0
+Jac-times evals               = 52
+LS iters per NLS iter         = 1.40541
+Jac evals per NLS iter        = 0
+Prec evals per NLS iter       = 0
+End ARKStep Logging test
