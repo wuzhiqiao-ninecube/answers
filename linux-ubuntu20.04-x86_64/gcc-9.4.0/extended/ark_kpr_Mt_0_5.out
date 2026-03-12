@@ -5,9 +5,9 @@ Nonlinear Kvaerno-Prothero-Robinson test problem with mass matrix:
     ARK solver, order = 5
     Newton nonlinear solver
     Adaptive run with reltol = 1e-05, abstol = 1e-11
-    G = -100
-    g = 10
-    e = 0.5
+    G =     -100
+    g =       10
+    e =      0.5
 
         t           u           v       uerr      verr
    ------------------------------------------------------

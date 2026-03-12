@@ -256,7 +256,7 @@ Linear Multistep Method : ADAMS
 Iteration               : FIXEDPOINT
 
       t        max.err      qu     hu 
-     0.010    1.7971e-07    2     7.4622e-03
+     0.010    1.7972e-07    2     7.4622e-03
      0.100    4.6939e-07    4     3.2267e-02
      1.000    4.0233e-07    5     5.1113e-02
     10.000    1.7264e-06    5     5.1113e-02
@@ -315,7 +315,7 @@ Iteration               : NEWTON
 Linear Solver           : Band, User-Supplied Jacobian
 
       t        max.err      qu     hu 
-     0.010    1.8038e-07    2     7.4681e-03
+     0.010    1.8039e-07    2     7.4681e-03
      0.100    4.6194e-07    4     4.2023e-02
      1.000    2.3842e-07    6     1.0407e-01
     10.000    4.7145e-07    4     3.9056e-01
@@ -347,7 +347,7 @@ Iteration               : NEWTON
 Linear Solver           : Band, Difference Quotient Jacobian
 
       t        max.err      qu     hu 
-     0.010    1.8005e-07    2     7.4657e-03
+     0.010    1.8006e-07    2     7.4657e-03
      0.100    6.4075e-07    4     4.2852e-02
      1.000    5.6624e-07    5     6.7669e-02
     10.000    1.9398e-07    5     5.8039e-01

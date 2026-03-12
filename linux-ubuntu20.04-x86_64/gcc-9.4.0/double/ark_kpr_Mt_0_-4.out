@@ -5,9 +5,9 @@ Nonlinear Kvaerno-Prothero-Robinson test problem with mass matrix:
     ARK solver, order = 4
     Newton nonlinear solver
     Order-of-convergence run
-    G = -100
-    g = 10
-    e = 0.5
+    G =     -100
+    g =       10
+    e =      0.5
 
  Fixed-step runs:
  -----------------------------------------------------
