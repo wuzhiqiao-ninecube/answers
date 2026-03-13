@@ -25,43 +25,43 @@ t = 3.60e+04   no. steps = 361   order = 5   stepsize = 1.03e+02
 At bottom left:  c1, c2 =    1.404e+04    3.387e+11 
 At top right:    c1, c2 =    1.561e+04    3.765e+11 
 
-t = 4.32e+04   no. steps = 413   order = 5   stepsize = 4.85e+02
-At bottom left:  c1, c2 =   -3.659e-08    3.382e+11 
-At top right:    c1, c2 =    6.829e-09    3.804e+11 
+t = 4.32e+04   no. steps = 414   order = 5   stepsize = 4.87e+02
+At bottom left:  c1, c2 =    2.818e-11    3.382e+11 
+At top right:    c1, c2 =    4.887e-11    3.804e+11 
 
-t = 5.04e+04   no. steps = 427   order = 5   stepsize = 3.79e+02
-At bottom left:  c1, c2 =   -5.387e-11    3.358e+11 
-At top right:    c1, c2 =   -5.099e-11    3.864e+11 
+t = 5.04e+04   no. steps = 429   order = 5   stepsize = 5.18e+02
+At bottom left:  c1, c2 =    2.127e-11    3.358e+11 
+At top right:    c1, c2 =   -4.677e-11    3.864e+11 
 
-t = 5.76e+04   no. steps = 437   order = 5   stepsize = 3.96e+02
-At bottom left:  c1, c2 =    1.359e-11    3.320e+11 
-At top right:    c1, c2 =    2.996e-11    3.909e+11 
+t = 5.76e+04   no. steps = 441   order = 5   stepsize = 4.52e+02
+At bottom left:  c1, c2 =   -1.342e-10    3.320e+11 
+At top right:    c1, c2 =   -5.877e-11    3.909e+11 
 
-t = 6.48e+04   no. steps = 449   order = 5   stepsize = 6.70e+02
-At bottom left:  c1, c2 =   -3.654e-12    3.313e+11 
-At top right:    c1, c2 =   -7.771e-12    3.963e+11 
+t = 6.48e+04   no. steps = 450   order = 5   stepsize = 7.72e+02
+At bottom left:  c1, c2 =   -5.900e-12    3.313e+11 
+At top right:    c1, c2 =    1.176e-11    3.963e+11 
 
-t = 7.20e+04   no. steps = 460   order = 5   stepsize = 6.70e+02
-At bottom left:  c1, c2 =    1.912e-13    3.330e+11 
-At top right:    c1, c2 =   -3.701e-14    4.039e+11 
+t = 7.20e+04   no. steps = 459   order = 5   stepsize = 7.72e+02
+At bottom left:  c1, c2 =   -1.865e-12    3.330e+11 
+At top right:    c1, c2 =   -1.259e-13    4.039e+11 
 
-t = 7.92e+04   no. steps = 471   order = 5   stepsize = 6.70e+02
-At bottom left:  c1, c2 =    5.426e-12    3.334e+11 
-At top right:    c1, c2 =    1.614e-12    4.120e+11 
+t = 7.92e+04   no. steps = 469   order = 5   stepsize = 7.72e+02
+At bottom left:  c1, c2 =    6.464e-14    3.334e+11 
+At top right:    c1, c2 =    1.880e-14    4.120e+11 
 
-t = 8.64e+04   no. steps = 481   order = 5   stepsize = 6.70e+02
-At bottom left:  c1, c2 =   -1.948e-12    3.352e+11 
-At top right:    c1, c2 =    3.188e-13    4.163e+11 
+t = 8.64e+04   no. steps = 478   order = 5   stepsize = 7.72e+02
+At bottom left:  c1, c2 =    5.717e-11    3.352e+11 
+At top right:    c1, c2 =   -4.219e-13    4.163e+11 
 
 
 Final Statistics: 
 
 lenrw   =  2689     leniw   =   248
 lenrwls =  2454     leniwls =   222
-nst     =   481
-nfe     =   603     nfels   =  1156
-nni     =   600     nli     =  1156
-nsetups =    83     netf    =    25
-npe     =     9     nps     =  1665
-ncfn    =     0     ncfl    =     4
+nst     =   478
+nfe     =   601     nfels   =  1127
+nni     =   598     nli     =  1127
+nsetups =    82     netf    =    25
+npe     =     9     nps     =  1631
+ncfn    =     0     ncfl    =     2
 
